@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html, body{
+  background: #010203;
+  font-family: 'Bebas', sans-serif;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(to bottom, #04b2d9, #048abf, #023859);
+}
+
+h3{
+  text-align: center;
+}
+.board {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  gap: 10px;
+}
+.carteverse{
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 250px;
+  margin: 20px;
+}
+.bgPlacar{
+  background-color: aqua;
+}
